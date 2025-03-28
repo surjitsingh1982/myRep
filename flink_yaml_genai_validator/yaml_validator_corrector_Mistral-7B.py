@@ -9,7 +9,7 @@ yaml_input = """
 source:
   type: "Kafka"
   topic: "events"
-  parallelism: 10
+  parallelism: 20
 
 transform:
   type: "SQL"
